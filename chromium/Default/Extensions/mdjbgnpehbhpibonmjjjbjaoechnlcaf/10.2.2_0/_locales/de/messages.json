@@ -1,0 +1,248 @@
+{
+   "Ext_Description": {
+      "message": "Erweiterung AllDebrid"
+   },
+   "Ext_Name": {
+      "message": "Erweiterung AllDebrid"
+   },
+   "button_alldebrid_settings": {
+      "message": "Einstellungen der Erweiterung Alldebrid"
+   },
+   "context_unlock_link": {
+      "message": "Diesen Link freischalten"
+   },
+   "context_unlock_links": {
+      "message": "Diese Links freischalten"
+   },
+   "context_upload_you_know_what": {
+      "message": "Den Torrent auf Alldebrid hochladen"
+   },
+   "notif_generic_error": {
+      "message": "Fehler"
+   },
+   "notif_generic_error_desc": {
+      "message": "Fehler beim internen Abrufen von Daten, bitte kontaktieren Sie den Support"
+   },
+   "notif_login_error": {
+      "message": "Fehler bei der Verbindung zur Website"
+   },
+   "notif_login_error_desc": {
+      "message": "Bitte verbinden Sie sich mit Alldebrid"
+   },
+   "popup_account_expire": {
+      "message": " Ihr Konto läuft ab in  "
+   },
+   "popup_account_expired": {
+      "message": " Ihre Prämie ist abgelaufen, bitte"
+   },
+   "popup_days": {
+      "message": "  Tage"
+   },
+   "popup_display_bar_description": {
+      "message": "Den schwarzen Balken auf den Hosts anzeigen"
+   },
+   "popup_display_bar_title": {
+      "message": "Schwarzer Balken"
+   },
+   "popup_display_popup_description": {
+      "message": "Popup an Auswahl von Links anzeigen"
+   },
+   "popup_display_popup_title": {
+      "message": "Popup"
+   },
+   "popup_display_ykw_finished": {
+      "message": " Benachrichtigen Sie mich, wenn ein Upload beendet wird"
+   },
+   "popup_display_ykw_progress": {
+      "message": " Fortschritte von Uploads anzeigen"
+   },
+   "popup_hello": {
+      "message": " Hallo"
+   },
+   "popup_host_disable": {
+      "message": " Hosts deaktivieren"
+   },
+   "popup_host_disable_add_host": {
+      "message": " Host hinzufügen"
+   },
+   "popup_host_disable_desc": {
+      "message": " Plugin für einige Hosts deaktivieren"
+   },
+   "popup_login": {
+      "message": " Sie müssen sich bei Alldebrid anmelden, um die Erweiterung zu verwenden"
+   },
+   "popup_login_header": {
+      "message": "  Bitte melden Sie sich an, um die Erweiterung zu verwenden:"
+   },
+   "popup_login_missing": {
+      "message": " Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein"
+   },
+   "popup_password": {
+      "message": " Passwort:"
+   },
+   "popup_replace_links_description": {
+      "message": "Download-Links ersetzen"
+   },
+   "popup_replace_links_title": {
+      "message": "Links ersetzen"
+   },
+   "popup_rewew": {
+      "message": " aktualisieren"
+   },
+   "popup_settings": {
+      "message": " Einstellungen"
+   },
+   "popup_settings_player": {
+      "message": "Videoplayer"
+   },
+   "popup_settings_player_change": {
+      "message": "VLC-Pfad oder Videoplayer einstellen"
+   },
+   "popup_settings_player_feature": {
+      "message": "Um diese Funktion zu aktivieren."
+   },
+   "popup_settings_player_follow": {
+      "message": "Bitte Folge"
+   },
+   "popup_settings_player_guide": {
+      "message": "Dieser Führer"
+   },
+   "popup_settings_player_invalid_path": {
+      "message": "Ungültigen Pfad"
+   },
+   "popup_settings_player_no_node": {
+      "message": "Dieses Plugin kann jedes Video von Alldebrid zu streamen zu "
+   },
+   "popup_settings_player_no_node_two": {
+      "message": "Ihr lokaler Video-Player (VLC, ect ...). "
+   },
+   "popup_settings_ykw": {
+      "message": " Torrent-Einstellungen"
+   },
+   "popup_stream_enable": {
+      "message": "Aktivieren Sie Streaming-Websites"
+   },
+   "popup_stream_enable_add": {
+      "message": "Füge eine Website hinzu"
+   },
+   "popup_stream_enable_desc": {
+      "message": "Aktiviere Plugin-Funktionalität für einige Streaming-Websites"
+   },
+   "popup_username": {
+      "message": " Benutzername:"
+   },
+   "premium_remainder": {
+      "message": "Ihr Premium läuft in Kürze ab!"
+   },
+   "premium_remainder_btn": {
+      "message": "Jetzt erneuern"
+   },
+   "premium_remainder_desc": {
+      "message": "Ihre Alldebrid-Prämie läuft in wenigen Tagen ab!"
+   },
+   "ykw_404": {
+      "message": "404-Fehler "
+   },
+   "ykw_404_desc": {
+      "message": "Die Datei existiert nicht"
+   },
+   "ykw_downloading": {
+      "message": "Herunterladen ("
+   },
+   "ykw_error_1": {
+      "message": " Fehler"
+   },
+   "ykw_error_2": {
+      "message": "Fehler : "
+   },
+   "ykw_error_3": {
+      "message": "Fehler !"
+   },
+   "ykw_error_4": {
+      "message": "Fehler bei der Verarbeitung / Hochladen von  "
+   },
+   "ykw_fail_server_response": {
+      "message": "Fehler beim Hochladen"
+   },
+   "ykw_fail_server_response_desc": {
+      "message": "Bitte versuchen Sie es noch einmal oder kontaktieren Sie den Support"
+   },
+   "ykw_file_too_big": {
+      "message": "Diese Datei ist zu groß"
+   },
+   "ykw_file_too_big_desc": {
+      "message": "Diese Datei hat über 15 MB, es ist wirklich eine  "
+   },
+   "ykw_in_queue": {
+      "message": "Ausstehend"
+   },
+   "ykw_invalid_file": {
+      "message": "Diese Datei ist keine  "
+   },
+   "ykw_is_in_queue": {
+      "message": "... ausstehend"
+   },
+   "ykw_is_in_queue_2": {
+      "message": "ausstehend"
+   },
+   "ykw_moving": {
+      "message": "Behandlung"
+   },
+   "ykw_open_on_alld": {
+      "message": "Download auf Alldebrid"
+   },
+   "ykw_open_utb_link": {
+      "message": "UTB Link öffnen"
+   },
+   "ykw_processing": {
+      "message": "Behandlung von  "
+   },
+   "ykw_queing": {
+      "message": "Ausstehend"
+   },
+   "ykw_ready": {
+      "message": "Bereit!"
+   },
+   "ykw_ready_2": {
+      "message": " ist fertig!"
+   },
+   "ykw_ready_download": {
+      "message": " zum Download bereit"
+   },
+   "ykw_seeders": {
+      "message": " Seeder für "
+   },
+   "ykw_up_success": {
+      "message": "Upload fertig"
+   },
+   "ykw_up_success_desc": {
+      "message": " Erfolgreich gesendet!"
+   },
+   "ykw_upload_error_1": {
+      "message": "Problem mit dem Magnet-Link"
+   },
+   "ykw_upload_error_2": {
+      "message": "Dies ist kein gültiger Magnet"
+   },
+   "ykw_upload_error_3": {
+      "message": "Sie sind nicht Premium!"
+   },
+   "ykw_upload_error_4": {
+      "message": "Download ist bereits abgeschlossen"
+   },
+   "ykw_upload_error_5": {
+      "message": "Diese Datei ist zu groß"
+   },
+   "ykw_upload_error_6": {
+      "message": "Sie müssen für diesen Dienst Premiumnutzer sein"
+   },
+   "ykw_upload_error_7": {
+      "message": "Der Torrent ist ungültig oder gebrochen"
+   },
+   "ykw_uploading": {
+      "message": "Hochladen auf UTB ("
+   },
+   "ykw_uploading_message": {
+      "message": "Hochladen von "
+   }
+}

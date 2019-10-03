@@ -1,0 +1,91 @@
+00:00:00.005305 main     VirtualBox XPCOM Server 6.0.8 r130347 linux.amd64 (May 15 2019 09:04:27) release log
+00:00:00.005310 main     Log opened 2019-09-17T11:52:25.856259000Z
+00:00:00.005311 main     Build Type: release
+00:00:00.005316 main     OS Product: Linux
+00:00:00.005318 main     OS Release: 5.1.2-arch1-1-ARCH
+00:00:00.005321 main     OS Version: #1 SMP PREEMPT Wed May 15 00:09:47 UTC 2019
+00:00:00.005409 main     DMI Product Name: HP x360 310 G1 PC
+00:00:00.005442 main     DMI Product Version: 0969100400405F00060470081
+00:00:00.005533 main     Host RAM: 3832MB (3.7GB) total, 2999MB (2.9GB) available
+00:00:00.005538 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.005539 main     Process ID: 2909
+00:00:00.005540 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.010970 main     IPC socket path: /tmp/.vbox-deadops-ipc/ipcd
+00:00:00.128996 nspr-2   VirtualBox: object creation starts
+00:00:00.130062 nspr-2   Home directory: '/home/deadops/.config/VirtualBox'
+00:00:00.130608 nspr-2   Loading settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.184671 nspr-2   NAT: resolv.conf: nameserver 10.255.255.200
+00:00:00.184734 nspr-2   HostDnsMonitor::updateInfo
+00:00:00.184769 nspr-2   HostDnsMonitor: old information
+00:00:00.184780 nspr-2     no server entries
+00:00:00.184789 nspr-2     no domain set
+00:00:00.184798 nspr-2     no search string entries
+00:00:00.184807 nspr-2   HostDnsMonitor: new information
+00:00:00.184834 nspr-2     server 1: 10.255.255.200
+00:00:00.184844 nspr-2     domain: iutbeziers.fr
+00:00:00.184854 nspr-2     search string 1: iutbeziers.fr
+00:00:00.191792 nspr-2   SUPR0QueryVTCaps -> VERR_VMX_MSR_ALL_VMX_DISABLED
+00:00:00.194310 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.195515 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d55176e5-6730-4e9e-fc1f-a59b1f44f78f} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.219756 nspr-2   Loading settings file "/home/deadops/VirtualBox VMs/packer-debian-9.7-amd64/packer-debian-9.7-amd64.vbox" with version "1.16-linux"
+00:00:00.224737 nspr-2   Loading settings file "/home/deadops/VirtualBox VMs/Centos/Centos.vbox" with version "1.16-linux"
+00:00:00.228528 nspr-2   Loading settings file "/home/deadops/VirtualBox VMs/debian/debian.vbox" with version "1.16-linux"
+00:00:00.231657 nspr-2   Loading settings file "/home/deadops/VirtualBox VMs/Clone de debian/Clone de debian.vbox" with version "1.16-linux"
+00:00:00.233456 nspr-2   Loading settings file "/home/deadops/VirtualBox VMs/Clone de debian 2/Clone de debian 2.vbox" with version "1.16-linux"
+00:00:00.234587 nspr-2   VirtualBox: object created
+00:00:01.646522 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.936807 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:01.940217 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:05.272143 nspr-3   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.308738 nspr-3   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:50.659827 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:02:50.669645 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:03:17.469303 createBase Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:17.567589 nspr-4   Saving settings file "/home/deadops/VirtualBox VMs/DEBIAN FUCK YOU/DEBIAN FUCK YOU.vbox" with version "1.16-linux"
+00:03:17.588522 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:03:17.600747 nspr-4   Saving settings file "/home/deadops/VirtualBox VMs/DEBIAN FUCK YOU/DEBIAN FUCK YOU.vbox" with version "1.16-linux"
+00:03:17.611161 nspr-4   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:17.647193 nspr-5   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:17.668404 nspr-5   Saving settings file "/home/deadops/VirtualBox VMs/DEBIAN FUCK YOU/DEBIAN FUCK YOU.vbox" with version "1.16-linux"
+00:03:17.724195 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:03:17.844194 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:03:18.031878 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:03:18.040372 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:03:25.657470 nspr-4   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:26.210437 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:03:26.225470 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:03:26.271813 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:03:26.427446 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:03:26.433947 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:04:38.264425 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:04:38.858109 nspr-3   Import settings with version "1.16-linux"
+00:04:38.858349 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'packer-debian-9.7-amd64 1'}, preserve=false aResultDetail=0
+00:04:38.858612 nspr-3   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium '/home/deadops/VirtualBox VMs/packer-debian-9.7-amd64 1/packer-debian-9.7-amd64-disk001.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:04:39.733145 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:04:39.740244 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:05:09.366672 nspr-4   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:09.408061 nspr-2   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:09.461096 nspr-4   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:09.476470 nspr-3   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:09.498755 nspr-2   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:59.690289 createImport Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:59.716664 ApplImp  Saving settings file "/home/deadops/VirtualBox VMs/packer-debian-9.7-amd64 1/packer-debian-9.7-amd64 1.vbox" with version "1.16-linux"
+00:05:59.732330 ApplImp  Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:06:00.730802 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:06:01.479844 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:06:01.492093 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:07:30.949003 nspr-2   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:30.967972 nspr-5   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:31.015876 nspr-2   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:31.042594 nspr-2   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:31.067317 nspr-5   Saving settings file "/home/deadops/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:07:36.648175 main     VirtualBox: object deletion starts
+00:07:36.648937 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/deadops/VirtualBox VMs/Centos/Centos.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:36.649697 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/deadops/VirtualBox VMs/debian/Snapshots/{89219431-c46d-4d78-94b9-923c0f2b1652}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:36.649870 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/deadops/VirtualBox VMs/Clone de debian 2/Snapshots/{d5319e37-fb34-45cc-8e6c-86170519b8ed}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:36.650027 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/deadops/VirtualBox VMs/debian/Snapshots/{5b2b15a6-9ae4-49b7-96cf-d7f6fc6f4181}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:36.650176 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/deadops/VirtualBox VMs/debian/debian.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:36.651911 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/deadops/VirtualBox VMs/Clone de debian/Clone de debian.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:07:36.868624 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:07:41.657725 main     {00007f2a2c01ac30} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:07:41.660422 main     VirtualBox: object deleted

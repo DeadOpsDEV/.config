@@ -1,0 +1,12 @@
+[2019-06-29 23:38:33.941] [exthost] [info] extension host started
+[2019-06-29 23:38:34.078] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:38:34.079] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-06-29 23:38:34.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:38:34.087] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2019-06-29 23:38:34.100] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:38:34.101] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2019-06-29 23:38:34.193] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:38:34.193] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2019-06-29 23:38:34.203] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2019-06-29 23:38:34.203] [exthost] [info] ExtensionService#loadCommonJSModule /home/deadops/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2019-06-29 23:38:34.247] [exthost] [info] eager extensions activated

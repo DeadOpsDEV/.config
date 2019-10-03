@@ -1,0 +1,248 @@
+{
+   "Ext_Description": {
+      "message": "AllDebrid Eklentisi"
+   },
+   "Ext_Name": {
+      "message": "AllDebrid Eklentisi"
+   },
+   "button_alldebrid_settings": {
+      "message": "Alldebrid Eklenti Ayarları"
+   },
+   "context_unlock_link": {
+      "message": "Bu linki indir"
+   },
+   "context_unlock_links": {
+      "message": "Bu linkleri indir"
+   },
+   "context_upload_you_know_what": {
+      "message": "Torrenti Alldebrid'e yükleyin"
+   },
+   "notif_generic_error": {
+      "message": "Hata"
+   },
+   "notif_generic_error_desc": {
+      "message": "İçsel veri işleme hatası, lütfen destek birimine bildiriniz"
+   },
+   "notif_login_error": {
+      "message": "Siteye bağlanma hatası"
+   },
+   "notif_login_error_desc": {
+      "message": "Alldebrid de oturum açtığınız için teşekkür ederiz"
+   },
+   "popup_account_expire": {
+      "message": " Aboneliğinizin bitmesine kalan süre "
+   },
+   "popup_account_expired": {
+      "message": " Premium süreniz sona ermiştir, teşekkürler"
+   },
+   "popup_days": {
+      "message": "  gün"
+   },
+   "popup_display_bar_description": {
+      "message": "Sağlayıcılar üzerinde indirme çubuğu göster"
+   },
+   "popup_display_bar_title": {
+      "message": "İndirme çubuğu"
+   },
+   "popup_display_popup_description": {
+      "message": "Link seçiminde açılır pencere göster"
+   },
+   "popup_display_popup_title": {
+      "message": "Açılır pencere"
+   },
+   "popup_display_ykw_finished": {
+      "message": " Yükleme sona erdiğinde beni haberdar et"
+   },
+   "popup_display_ykw_progress": {
+      "message": " Yükleme ilerlemesini göster"
+   },
+   "popup_hello": {
+      "message": " Merhaba"
+   },
+   "popup_host_disable": {
+      "message": " Sağlayıcıların devre dışı bırakılması"
+   },
+   "popup_host_disable_add_host": {
+      "message": " Bir sağlayıcıyı yeniden ekle"
+   },
+   "popup_host_disable_desc": {
+      "message": " Bazı sağlayıcılar için eklentiyi devre dışı bırak"
+   },
+   "popup_login": {
+      "message": " Eklentiyi kullanabilmek için Alldebrid de oturum açmanız gerekmektedir"
+   },
+   "popup_login_header": {
+      "message": "  Eklentiyi kullanmak için lütfen giriş yapınız:"
+   },
+   "popup_login_missing": {
+      "message": " Lütfen kullanıcı adı ve şifrenizi giriniz"
+   },
+   "popup_password": {
+      "message": " Şifre:"
+   },
+   "popup_replace_links_description": {
+      "message": "İndirme linklerini değiştirin"
+   },
+   "popup_replace_links_title": {
+      "message": "Linkleri değiştir"
+   },
+   "popup_rewew": {
+      "message": " yenile"
+   },
+   "popup_settings": {
+      "message": " Ayarlar"
+   },
+   "popup_settings_player": {
+      "message": "Video oynatıcı"
+   },
+   "popup_settings_player_change": {
+      "message": "VLC yolunu veya video oynatıcısını değiştir"
+   },
+   "popup_settings_player_feature": {
+      "message": "Bu özelliği etkinleştirmek için."
+   },
+   "popup_settings_player_follow": {
+      "message": "Lütfen takip edin"
+   },
+   "popup_settings_player_guide": {
+      "message": "Bu rehber"
+   },
+   "popup_settings_player_invalid_path": {
+      "message": "Geçersiz yol"
+   },
+   "popup_settings_player_no_node": {
+      "message": "Bu eklenti, Alldebrid'den herhangi bir videoyu "
+   },
+   "popup_settings_player_no_node_two": {
+      "message": "Yerel video oynatıcınız (VLC, vb.). "
+   },
+   "popup_settings_ykw": {
+      "message": " Torrent ayarları"
+   },
+   "popup_stream_enable": {
+      "message": "Akan web sitelerini etkinleştir"
+   },
+   "popup_stream_enable_add": {
+      "message": "Web sitesi ekleme"
+   },
+   "popup_stream_enable_desc": {
+      "message": "Akış sağlayan bazı web siteleri için eklenti işlevini etkinleştirin"
+   },
+   "popup_username": {
+      "message": " Kullanıcı adı:"
+   },
+   "premium_remainder": {
+      "message": "Premium hesabınız yakında sona eriyor!"
+   },
+   "premium_remainder_btn": {
+      "message": "Hemen yenileyin"
+   },
+   "premium_remainder_desc": {
+      "message": "Alldebrid Premium hesabınız birkaç gün içerisinde sona eriyor!"
+   },
+   "ykw_404": {
+      "message": "404 Hatası"
+   },
+   "ykw_404_desc": {
+      "message": "Dosya mevcut değil"
+   },
+   "ykw_downloading": {
+      "message": "İndirme ("
+   },
+   "ykw_error_1": {
+      "message": " hata"
+   },
+   "ykw_error_2": {
+      "message": "Hata : "
+   },
+   "ykw_error_3": {
+      "message": "Hata !"
+   },
+   "ykw_error_4": {
+      "message": "Şunun işlenmesi / yüklenmesi sırasında hata oluştu: "
+   },
+   "ykw_fail_server_response": {
+      "message": "Yükleme sırasında hata oluştu"
+   },
+   "ykw_fail_server_response_desc": {
+      "message": "Lütfen yeniden deneyin veya desteğe başvurun"
+   },
+   "ykw_file_too_big": {
+      "message": "Bu dosya çok büyük"
+   },
+   "ykw_file_too_big_desc": {
+      "message": "Bu dosyanın boyutu 15MB üzerindedir. Kontrol ediniz "
+   },
+   "ykw_in_queue": {
+      "message": "Bekliyor"
+   },
+   "ykw_invalid_file": {
+      "message": "Bu dosya, "
+   },
+   "ykw_is_in_queue": {
+      "message": "... ... bekliyor"
+   },
+   "ykw_is_in_queue_2": {
+      "message": "bekliyor"
+   },
+   "ykw_moving": {
+      "message": "İşleme"
+   },
+   "ykw_open_on_alld": {
+      "message": "Alldebrid ile indir"
+   },
+   "ykw_open_utb_link": {
+      "message": "UTB linkini aç"
+   },
+   "ykw_processing": {
+      "message": "İşleme "
+   },
+   "ykw_queing": {
+      "message": "Bekliyor"
+   },
+   "ykw_ready": {
+      "message": "Hazır!"
+   },
+   "ykw_ready_2": {
+      "message": " hazır!"
+   },
+   "ykw_ready_download": {
+      "message": " indirmeye hazır"
+   },
+   "ykw_seeders": {
+      "message": " dağıtıcılar "
+   },
+   "ykw_up_success": {
+      "message": "Yükleme bitti"
+   },
+   "ykw_up_success_desc": {
+      "message": " başarıyla gönderildi!"
+   },
+   "ykw_upload_error_1": {
+      "message": "Magnet linki ile ilgili bir problem oluştu"
+   },
+   "ykw_upload_error_2": {
+      "message": "Bu geçerli bir magnet değil"
+   },
+   "ykw_upload_error_3": {
+      "message": "Premium üye değilsiniz!"
+   },
+   "ykw_upload_error_4": {
+      "message": "İndirme çoktan bitti"
+   },
+   "ykw_upload_error_5": {
+      "message": "Bu dosya çok büyük hacimli"
+   },
+   "ykw_upload_error_6": {
+      "message": "Bu hizmeti kullanabilmek için Premium üye olmanız gerekmektedir"
+   },
+   "ykw_upload_error_7": {
+      "message": "Torrent geçersiz ya da bozuk"
+   },
+   "ykw_uploading": {
+      "message": "UTB'ye yükle ("
+   },
+   "ykw_uploading_message": {
+      "message": "Şunu yükle "
+   }
+}

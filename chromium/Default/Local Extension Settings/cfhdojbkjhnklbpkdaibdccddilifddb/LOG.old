@@ -1,0 +1,52 @@
+2019/10/02-12:49:59.304 5cb Reusing MANIFEST /home/deadops/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2019/10/02-12:49:59.312 5cb Recovering log #1530
+2019/10/02-12:49:59.313 5cb Reusing old log /home/deadops/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/001530.log 
+2019/10/02-12:51:02.407 7e0 Level-0 table #1534: started
+2019/10/02-12:51:02.540 7e0 Level-0 table #1534: 4811422 bytes OK
+2019/10/02-12:51:02.548 7e0 Delete type=0 #1530
+2019/10/02-12:51:13.293 7e0 Level-0 table #1536: started
+2019/10/02-12:51:13.432 7e0 Level-0 table #1536: 4811447 bytes OK
+2019/10/02-12:51:13.438 7e0 Delete type=0 #1533
+2019/10/02-12:51:13.447 7e0 Compacting 4@0 + 2@1 files
+2019/10/02-12:51:13.681 7e0 Generated table #1537@0: 1 keys, 4811182 bytes
+2019/10/02-12:51:13.693 7e0 Generated table #1538@0: 3 keys, 390 bytes
+2019/10/02-12:51:13.693 7e0 Compacted 4@0 + 2@1 files => 4811572 bytes
+2019/10/02-12:51:13.696 7e0 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/10/02-12:51:13.697 7e0 Delete type=2 #1534
+2019/10/02-12:51:13.698 7e0 Delete type=2 #1527
+2019/10/02-12:51:13.698 7e0 Delete type=2 #1526
+2019/10/02-12:51:13.699 7e0 Delete type=2 #1529
+2019/10/02-12:51:13.700 7e0 Delete type=2 #1536
+2019/10/02-12:51:13.701 7e0 Delete type=2 #1531
+2019/10/02-12:51:17.582 7e0 Level-0 table #1540: started
+2019/10/02-12:51:17.720 7e0 Level-0 table #1540: 4811211 bytes OK
+2019/10/02-12:51:17.731 7e0 Delete type=0 #1535
+2019/10/02-12:54:05.491 7e0 Level-0 table #1542: started
+2019/10/02-12:54:05.649 7e0 Level-0 table #1542: 4811211 bytes OK
+2019/10/02-12:54:05.663 7e0 Delete type=0 #1539
+2019/10/02-13:50:32.433 7e0 Level-0 table #1544: started
+2019/10/02-13:50:32.569 7e0 Level-0 table #1544: 4811460 bytes OK
+2019/10/02-13:50:32.578 7e0 Delete type=0 #1541
+2019/10/02-14:00:25.442 7e0 Level-0 table #1546: started
+2019/10/02-14:00:25.595 7e0 Level-0 table #1546: 4811477 bytes OK
+2019/10/02-14:00:25.610 7e0 Delete type=0 #1543
+2019/10/02-14:00:25.618 7e0 Compacting 4@0 + 2@1 files
+2019/10/02-14:00:25.893 7e0 Generated table #1547@0: 1 keys, 4811212 bytes
+2019/10/02-14:00:25.903 7e0 Generated table #1548@0: 3 keys, 390 bytes
+2019/10/02-14:00:25.903 7e0 Compacted 4@0 + 2@1 files => 4811602 bytes
+2019/10/02-14:00:25.908 7e0 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/10/02-14:00:25.909 7e0 Delete type=2 #1537
+2019/10/02-14:00:25.911 7e0 Delete type=2 #1538
+2019/10/02-14:00:25.914 7e0 Delete type=2 #1546
+2019/10/02-14:00:25.917 7e0 Delete type=2 #1540
+2019/10/02-14:00:25.920 7e0 Delete type=2 #1544
+2019/10/02-14:00:25.922 7e0 Delete type=2 #1542
+2019/10/02-14:50:32.572 7e0 Level-0 table #1550: started
+2019/10/02-14:50:32.714 7e0 Level-0 table #1550: 4811553 bytes OK
+2019/10/02-14:50:32.728 7e0 Delete type=0 #1545
+2019/10/02-15:45:05.969 7e0 Level-0 table #1552: started
+2019/10/02-15:45:06.114 7e0 Level-0 table #1552: 4811476 bytes OK
+2019/10/02-15:45:06.128 7e0 Delete type=0 #1549
+2019/10/02-15:50:32.393 7e0 Level-0 table #1554: started
+2019/10/02-15:50:32.526 7e0 Level-0 table #1554: 4811332 bytes OK
+2019/10/02-15:50:32.542 7e0 Delete type=0 #1551

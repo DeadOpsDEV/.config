@@ -1,0 +1,12 @@
+2019/10/02-08:55:45.578 d11 Recovering log #192
+2019/10/02-08:55:45.579 d11 Level-0 table #194: started
+2019/10/02-08:55:45.587 d11 Level-0 table #194: 683 bytes OK
+2019/10/02-08:55:45.609 d11 Delete type=3 #190
+2019/10/02-08:55:45.609 d11 Delete type=0 #192
+2019/10/02-08:55:45.610 7cf Compacting 2@0 + 1@1 files
+2019/10/02-08:55:45.619 7cf Generated table #196@0: 39 keys, 1935 bytes
+2019/10/02-08:55:45.619 7cf Compacted 2@0 + 1@1 files => 1935 bytes
+2019/10/02-08:55:45.623 7cf compacted to: files[ 2 1 1 0 0 0 0 ]
+2019/10/02-08:55:45.625 7cf Delete type=2 #180
+2019/10/02-08:55:45.626 7cf Delete type=2 #175
+2019/10/02-08:55:45.626 7cf Delete type=2 #188

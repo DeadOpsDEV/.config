@@ -1,0 +1,33 @@
+[Added Associations]
+font/ttf=org.gnome.font-viewer.desktop;cmake-gui.desktop;
+font/otf=org.gnome.font-viewer.desktop;
+application/pdf=chromium.desktop;firefox.desktop;
+application/vnd.oasis.opendocument.formula-template=org.gnome.font-viewer.desktop;
+font/woff=org.gnome.font-viewer.desktop;
+application/octet-stream=org.gnome.font-viewer.desktop;
+application/x-font-pcf=org.gnome.font-viewer.desktop;
+image/png=feh.desktop;gimp.desktop;
+image/gif=feh.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+audio/mpeg=vlc.desktop;mplayer.desktop;
+application/x-php=visual-studio-code.desktop;
+application/x-virtualbox-ova=virtualbox.desktop;
+text/plain=visual-studio-code.desktop;libreoffice-writer.desktop;
+text/x-systemd-unit=libreoffice-writer.desktop;
+application/zip=peazip.desktop;
+text/x-python3=visual-studio-code.desktop;libreoffice-writer.desktop;
+application/x-xz-compressed-tar=peazip.desktop;
+application/x-tar=peazip.desktop;
+text/x-install=libreoffice-writer.desktop;
+application/x-compressed-tar=peazip.desktop;
+text/html=chromium.desktop;visual-studio-code.desktop;vim.desktop;
+application/x-pcapng=wireshark.desktop;
+image/jpeg=feh.desktop;gimp.desktop;
+application/x-shellscript=vim.desktop;
+application/x-yaml=visual-studio-code.desktop;
+
+[Default Applications]
+inode/directory=Thunar.desktop
+image/jpeg=feh.desktop
+application/pdf=FoxitReader.desktop
+application/ppdf=FoxitReader.desktop

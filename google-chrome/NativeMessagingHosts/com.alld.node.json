@@ -1,0 +1,7 @@
+{
+  "name": "com.alld.node",
+  "description": "Node Host for Native Messaging",
+  "path": "/home/deadops/com.alld.node/run.sh",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://mdjbgnpehbhpibonmjjjbjaoechnlcaf/","chrome-extension://cndnfdjmibkjcdaaeahmifgbbnfohjoj/","chrome-extension://fabpgdekndfhkfmceikbhgpnfglhamfm/"]
+  }

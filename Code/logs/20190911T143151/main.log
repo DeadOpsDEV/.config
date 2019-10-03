@@ -1,0 +1,4 @@
+[2019-09-11 14:31:51.411] [main] [info] update#setState idle
+[2019-09-11 14:32:21.419] [main] [info] update#setState checking for updates
+[2019-09-11 14:34:08.138] [main] [error] Error: net::ERR_CONNECTION_TIMED_OUT
+[2019-09-11 14:34:08.139] [main] [info] update#setState idle

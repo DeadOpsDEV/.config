@@ -1,0 +1,36 @@
+2019-10-02 13:11:43 INFO logger.py:126 Log level: INFO
+2019-10-02 13:11:43 INFO main.py:259 GNS3 GUI version 2.1.12
+2019-10-02 13:11:43 INFO main.py:260 Copyright (c) 2007-2019 GNS3 Technologies Inc.
+2019-10-02 13:11:43 INFO main.py:262 Application started with /usr/bin/gns3
+2019-10-02 13:12:05 ERROR local_server.py:492 Local server process has stopped
+2019-10-02 13:12:05 ERROR local_server.py:494 Traceback (most recent call last):
+  File "/usr/bin/gns3server", line 10, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3.7/site-packages/gns3server/main.py", line 82, in main
+    from gns3server.run import run
+  File "/usr/lib/python3.7/site-packages/gns3server/run.py", line 32, in <module>
+    from gns3server.web.web_server import WebServer
+  File "/usr/lib/python3.7/site-packages/gns3server/web/web_server.py", line 26, in <module>
+    import aiohttp
+  File "/usr/lib/python3.7/site-packages/aiohttp/__init__.py", line 6, in <module>
+    from .client import *  # noqa
+  File "/usr/lib/python3.7/site-packages/aiohttp/client.py", line 13, in <module>
+    from yarl import URL
+ImportError: cannot import name 'URL' from 'yarl' (unknown location)
+
+2019-10-02 13:12:25 ERROR local_server.py:492 Local server process has stopped
+2019-10-02 13:12:25 ERROR local_server.py:494 Traceback (most recent call last):
+  File "/usr/bin/gns3server", line 10, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3.7/site-packages/gns3server/main.py", line 82, in main
+    from gns3server.run import run
+  File "/usr/lib/python3.7/site-packages/gns3server/run.py", line 32, in <module>
+    from gns3server.web.web_server import WebServer
+  File "/usr/lib/python3.7/site-packages/gns3server/web/web_server.py", line 26, in <module>
+    import aiohttp
+  File "/usr/lib/python3.7/site-packages/aiohttp/__init__.py", line 6, in <module>
+    from .client import *  # noqa
+  File "/usr/lib/python3.7/site-packages/aiohttp/client.py", line 13, in <module>
+    from yarl import URL
+ImportError: cannot import name 'URL' from 'yarl' (unknown location)
+

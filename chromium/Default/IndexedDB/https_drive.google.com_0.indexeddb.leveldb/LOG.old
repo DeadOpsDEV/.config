@@ -1,0 +1,23 @@
+2019/09/09-14:57:28.740 440 Reusing MANIFEST /home/deadops/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/09/09-14:57:28.741 440 Recovering log #138
+2019/09/09-14:57:28.741 440 Reusing old log /home/deadops/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000138.log 
+2019/09/09-14:58:00.475 874 Level-0 table #142: started
+2019/09/09-14:58:00.572 874 Level-0 table #142: 5335478 bytes OK
+2019/09/09-14:58:00.577 874 Delete type=0 #138
+2019/09/09-14:58:02.840 874 Level-0 table #144: started
+2019/09/09-14:58:02.915 874 Level-0 table #144: 5130319 bytes OK
+2019/09/09-14:58:02.924 874 Delete type=0 #141
+2019/09/09-14:58:40.784 874 Level-0 table #146: started
+2019/09/09-14:58:40.862 874 Level-0 table #146: 5131752 bytes OK
+2019/09/09-14:58:40.873 874 Delete type=0 #143
+2019/09/09-14:58:40.875 874 Compacting 4@0 + 2@1 files
+2019/09/09-14:58:40.983 874 Generated table #147@0: 29 keys, 5177342 bytes
+2019/09/09-14:58:40.996 874 Generated table #148@0: 30 keys, 2684 bytes
+2019/09/09-14:58:40.996 874 Compacted 4@0 + 2@1 files => 5180026 bytes
+2019/09/09-14:58:41.010 874 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/09/09-14:58:41.011 874 Delete type=2 #142
+2019/09/09-14:58:41.013 874 Delete type=2 #136
+2019/09/09-14:58:41.016 874 Delete type=2 #144
+2019/09/09-14:58:41.018 874 Delete type=2 #139
+2019/09/09-14:58:41.019 874 Delete type=2 #146
+2019/09/09-14:58:41.022 874 Delete type=2 #137

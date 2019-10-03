@@ -1,0 +1,295 @@
+{
+   "checksum": "10f7e5866194da67b3f7991d1e9df31f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13199029843577493",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13213177219272336"
+            },
+            "name": "PHP: Manuel PHP - Manual",
+            "sync_transaction_version": "916",
+            "type": "url",
+            "url": "https://www.php.net/manual/fr/"
+         }, {
+            "date_added": "13200408208453425",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13204278645011242"
+            },
+            "name": "How to fix a corrupt zsh history file | George Ornbo",
+            "sync_transaction_version": "414",
+            "type": "url",
+            "url": "https://shapeshed.com/zsh-corrupt-history-file/"
+         }, {
+            "date_added": "13202418037527408",
+            "id": "7",
+            "meta_info": {
+               "last_visited_desktop": "13214478320387940"
+            },
+            "name": "(7) LA PRÉCISION ULTIME SUR TOUS VOS JEUX (Apex, Fortnite, Overwatch, CSGO) - YouTube",
+            "sync_transaction_version": "1026",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=ePM8v-BgnwA"
+         }, {
+            "date_added": "13211572095804900",
+            "id": "35",
+            "name": "SAD Tab by Xxxtentacion - Дорожка 3 - Acoustic Guitar (nylon) | Songsterr Tabs with Rhythm",
+            "sync_transaction_version": "839",
+            "type": "url",
+            "url": "https://www.songsterr.com/a/wsa/xxxtentacion-sad-tab-s447912t1"
+         }, {
+            "date_added": "13211916801217082",
+            "id": "36",
+            "name": "Sk8mafia House Logo Skateboard Complet - Complets Skateboards",
+            "sync_transaction_version": "840",
+            "type": "url",
+            "url": "https://www.skatepro.fr/84-30650.htm?view=allreviews#reviews"
+         }, {
+            "date_added": "13211917350792782",
+            "id": "37",
+            "name": "Santa Cruz Flame Hand Skateboard Complet - Complets Skateboards",
+            "sync_transaction_version": "841",
+            "type": "url",
+            "url": "https://www.skatepro.fr/84-35971.htm"
+         }, {
+            "date_added": "13213363820991574",
+            "id": "42",
+            "name": "Titres les plus écoutés en streaming en France (Top Albums)",
+            "sync_transaction_version": "964",
+            "type": "url",
+            "url": "http://www.chartsinfrance.net/charts/titres-streaming.php"
+         }, {
+            "date_added": "13213368954796001",
+            "id": "43",
+            "name": "Vehicle Models - GTA Network Wiki",
+            "sync_transaction_version": "964",
+            "type": "url",
+            "url": "https://wiki.gtanet.work/index.php?title=Vehicle_Models"
+         }, {
+            "date_added": "13213642338343192",
+            "id": "44",
+            "name": "FiveM native reference",
+            "sync_transaction_version": "964",
+            "type": "url",
+            "url": "https://runtime.fivem.net/doc/natives/"
+         }, {
+            "date_added": "13213642830715965",
+            "id": "45",
+            "name": "FiveM Documentation",
+            "sync_transaction_version": "964",
+            "type": "url",
+            "url": "https://docs.fivem.net/"
+         }, {
+            "date_added": "13214431419816759",
+            "id": "47",
+            "name": "(14) 21 Levels of Skateboarding with Tony Hawk: Easy to Complex | WIRED - YouTube",
+            "sync_transaction_version": "1154",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=OOg-4mtA3Zo"
+         } ],
+         "date_added": "13200349069963561",
+         "date_modified": "13214579876711914",
+         "id": "1",
+         "name": "Barre de favoris",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13200349069963589",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Autres favoris",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "sync_transaction_version": "1154",
+      "synced": {
+         "children": [ {
+            "date_added": "13187692949597917",
+            "id": "9",
+            "meta_info": {
+               "last_visited": "13205434970826848",
+               "last_visited_desktop": "13203780271115525"
+            },
+            "name": "Authentification : Veuillez vous authentifier",
+            "sync_transaction_version": "820",
+            "type": "url",
+            "url": "https://cas.iutbeziers.fr:8443/login?service=https%3A%2F%2Fwww.iutbeziers.fr%2Fscodoc%2Fscodoc.php"
+         }, {
+            "date_added": "13191960442275779",
+            "id": "10",
+            "meta_info": {
+               "last_visited": "13205500349075101",
+               "last_visited_desktop": "13214492128939329"
+            },
+            "name": "Google",
+            "sync_transaction_version": "1154",
+            "type": "url",
+            "url": "https://www.google.fr/"
+         }, {
+            "date_added": "13192802693643245",
+            "id": "11",
+            "name": "Anima Stream - One Punch-Man",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://www.animastream.com/?n=One%20Punch%20Man&s=01&e=02"
+         }, {
+            "date_added": "13194306756302490",
+            "id": "12",
+            "name": "(1) Un aperçu rapide de Plasma 5.14.0... - YouTube",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=-EHlnF41H9Q"
+         }, {
+            "date_added": "13195933242564088",
+            "id": "13",
+            "name": "How to Get Stretch Res In Apex Legends Pc - YouTube",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=4cN280IbIRU"
+         }, {
+            "date_added": "13196708655956130",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13214491233025835"
+            },
+            "name": "Protégez l’ensemble de vos communications sur Internet - OpenClassrooms",
+            "sync_transaction_version": "1149",
+            "type": "url",
+            "url": "https://openclassrooms.com/fr/courses/2939006-protegez-l-ensemble-de-vos-communications-sur-internet"
+         }, {
+            "date_added": "13197037949111611",
+            "id": "15",
+            "name": "alimenter l'Arduino par panneaux solaires",
+            "sync_transaction_version": "3",
+            "type": "url",
+            "url": "https://forum.arduino.cc/index.php?topic=178964.0"
+         }, {
+            "date_added": "13201443481183057",
+            "id": "16",
+            "meta_info": {
+               "last_visited": "13204039088875364"
+            },
+            "name": "Solumaths - Logiciels web - Solutions mathématiques en ligne.",
+            "sync_transaction_version": "375",
+            "type": "url",
+            "url": "https://www.solumaths.com/fr/site/accueil"
+         }, {
+            "date_added": "13202071904026917",
+            "id": "17",
+            "name": "(5) LES MEILLEURES PERKS SURVIVANT ! - YouTube",
+            "sync_transaction_version": "26",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=-lEirB8eDfk&t=359s"
+         }, {
+            "date_added": "13202504792500525",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13205593988158873"
+            },
+            "name": "Mon site",
+            "sync_transaction_version": "724",
+            "type": "url",
+            "url": "http://localhost/site_1/index.php"
+         }, {
+            "date_added": "13202597038373434",
+            "id": "22",
+            "meta_info": {
+               "last_visited": "13205500216098703",
+               "last_visited_desktop": "13202597038374134"
+            },
+            "name": "6 Changing the logo of Neofetch – any desktop | Arcolinuxd.com",
+            "sync_transaction_version": "701",
+            "type": "url",
+            "url": "https://arcolinuxd.com/6-changing-the-logo-of-neofetch-any-desktop/"
+         }, {
+            "date_added": "13205497859559830",
+            "id": "24",
+            "meta_info": {
+               "last_visited_desktop": "13205508400763907"
+            },
+            "name": "[Résolu] Utilisation de la bibliothèque ChartJS avec PHP - avec de la récupération de données bdd par BobbyNew - OpenClassrooms",
+            "sync_transaction_version": "710",
+            "type": "url",
+            "url": "https://openclassrooms.com/forum/sujet/utilisation-de-la-bibliotheque-chartjs-avec-php"
+         }, {
+            "date_added": "13205518131968845",
+            "id": "26",
+            "meta_info": {
+               "last_visited": "13205518131988842"
+            },
+            "name": "Creating Dynamic Data Graph using PHP and Chart.js - Phppot",
+            "sync_transaction_version": "713",
+            "type": "url",
+            "url": "https://phppot.com/php/creating-dynamic-data-graph-using-php-and-chart-js/"
+         }, {
+            "date_added": "13205878996800161",
+            "id": "28",
+            "meta_info": {
+               "last_visited_desktop": "13205878996800698"
+            },
+            "name": "Si7021 Humidity and Temperature Sensor Hookup Guide - learn.sparkfun.com",
+            "sync_transaction_version": "731",
+            "type": "url",
+            "url": "https://learn.sparkfun.com/tutorials/si7021-humidity-and-temperature-sensor-hookup-guide/all"
+         }, {
+            "date_added": "13206049293405492",
+            "id": "30",
+            "meta_info": {
+               "last_visited_desktop": "13214391793360172"
+            },
+            "name": "Internet des Objets : bien comprendre MQTT",
+            "sync_transaction_version": "979",
+            "type": "url",
+            "url": "https://www.lemagit.fr/conseil/Internet-des-Objets-bien-comprendre-MQTT"
+         }, {
+            "date_added": "13206050017311921",
+            "id": "31",
+            "meta_info": {
+               "last_visited_desktop": "13206050017312698"
+            },
+            "name": "Persistance des messages dans les clients MQTT",
+            "sync_transaction_version": "783",
+            "type": "url",
+            "url": "https://www.ibm.com/support/knowledgecenter/fr/SSFKSJ_7.5.0/com.ibm.mm.tc.doc/tc60320_.htm"
+         }, {
+            "date_added": "13206374475566204",
+            "id": "33",
+            "meta_info": {
+               "last_visited_desktop": "13206374475566930"
+            },
+            "name": "Increase the size of the glyph · Issue #1475 · polybar/polybar · GitHub",
+            "sync_transaction_version": "827",
+            "type": "url",
+            "url": "https://github.com/polybar/polybar/issues/1475"
+         }, {
+            "date_added": "13207164561134605",
+            "id": "38",
+            "name": "Apex Legends Calculator - JSCalc.io",
+            "sync_transaction_version": "836",
+            "type": "url",
+            "url": "https://jscalc.io/calc/Q1gf45VCY4tmm2dq"
+         }, {
+            "date_added": "13212660646848316",
+            "id": "40",
+            "meta_info": {
+               "last_visited_desktop": "13212678997684727"
+            },
+            "name": "dotguide.pdf",
+            "sync_transaction_version": "910",
+            "type": "url",
+            "url": "https://www.graphviz.org/pdf/dotguide.pdf"
+         } ],
+         "date_added": "13200349069963593",
+         "date_modified": "13214579876712018",
+         "id": "3",
+         "name": "Favoris sur mobile",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

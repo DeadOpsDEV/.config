@@ -1,0 +1,23 @@
+{
+  "discord_desktop_core": {
+    "installedVersion": 0,
+    "updateVersion": 2,
+    "updateZipfile": "/home/deadops/.config/discord/0.0.9/modules/pending/discord_desktop_core-2.zip"
+  },
+  "discord_erlpack": {
+    "installedVersion": 0,
+    "updateVersion": 1,
+    "updateZipfile": "/home/deadops/.config/discord/0.0.9/modules/pending/discord_erlpack-1.zip"
+  },
+  "discord_spellcheck": {
+    "installedVersion": 0,
+    "updateVersion": 1,
+    "updateZipfile": "/home/deadops/.config/discord/0.0.9/modules/pending/discord_spellcheck-1.zip"
+  },
+  "discord_utils": {
+    "installedVersion": 0
+  },
+  "discord_voice": {
+    "installedVersion": 0
+  }
+}

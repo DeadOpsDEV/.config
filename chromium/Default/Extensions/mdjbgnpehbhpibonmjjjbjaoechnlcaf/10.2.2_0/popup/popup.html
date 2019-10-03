@@ -1,0 +1,203 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="fa.css">
+		<link rel="stylesheet" href="simplebar.css">
+		<link rel="stylesheet" href="popup.css">
+	</head>
+	<body>
+		<div class='guest'>
+			<span data-lang='guest_please_login'>Please log in to use the extension</span><br /><br />
+			<a href='https://alldebrid.com/register/' target='_blank' class='greenBtn' data-lang='guest_login'>Log in on Alldebrid</a>
+		</div>
+		<header>
+			<a id="logoLink" href="https://alldebrid.com" target="_blank">
+				<img src="../img/logo.png" />
+			</a>
+			<button data-lang='logo_send'  id="logoSendToAlld" style="margin: 22px auto 0 auto;" class='greenBtn'>Send current url to Alldebrid</button>
+		</header>
+
+		<div class="tab-wrap">
+			<input type="radio" id="tab0" name="tabGroup1" class="tab" >
+			<label class="tabHead" data-id="tab0" for="tab0"><i class="far fa-link"></i> <span data-lang='tab_links'>Files</span></label>
+
+			<input type="radio" id="tab1" name="tabGroup1" class="tab" >
+			<label class="tabHead" data-id="tab1" for="tab1"><i class="far fa-sliders-h"></i> <span data-lang='tab_general'>General</span></label>
+
+			<input type="radio" id="tab2" name="tabGroup1" class="tab" >
+			<label class="tabHead" data-id="tab2" for="tab2"><i class="fas fa-cloud-download"></i> <span data-lang='tab_rivers'></span></label>
+
+			<input type="radio" id="tab3" name="tabGroup1" class="tab">
+			<label class="tabHead" data-id="tab3" for="tab3"><i class="fas fa-play-circle"></i> <span data-lang='tab_stream'>Streaming</span></label>
+
+			<div class="tab__content" data-simplebar>
+				<div id="pageLinksNotFound">
+					<span data-lang='find_links_no_files_found'>No files found on this page</span><br />
+					<!-- data-lang='local_stream_scan' -->
+				</div>
+				<div id="pageLinksList">
+					<div id="fileListLoading" data-lang='find_links_page_analyzing'>Page is being scanned, please wait...</div>
+					<div id="fileListTitle"><span id="fileListNbFiles"></span> <span data-lang='find_links_files_found'>available files found on this page</span> <span class='greenBtn fileListDownloadAll' style='padding: 3px 10px;margin-left: 5px;'><span data-lang='download_all'>Download all</span> <i class="fas fa-download" style="margin-left: 4px;"></i></span></div>
+					<div id="fileList">
+					</div>
+					
+				</div>
+				<div id="pageLinksScan">
+					<span class='greenBtn' data-lang='find_links_analyze_again'>Re-scan page</span>
+					<span id="pageLinksScanReload" data-lang='find_links_need_reload'>Please reload the page to scan it</span>
+				</div>
+			</div>
+			<div class="tab__content" data-simplebar>
+				<div class="radioWrapper">
+				 	<input type="checkbox" name="changeLink" id="changeLink">
+				 	<label for="changeLink"></label>
+				 	<label data-lang="general_forward" for="changeLink">Forward links</label>
+				 	<div span data-lang="general_forward_desc" class="">Forward supported link to Alldebrid automatically when clicked or opened in a tab.</div>
+				</div>
+				<div class="radioWrapper">
+				 	<input type="checkbox" name="blackBar" id="blackBar">
+				 	<label for="blackBar"></label>
+				 	<label data-lang="general_blackbar" for="blackBar">Top black bar</label>
+				 	<div span data-lang="general_blackbar_desc" class="">Display a black bar on at the top of supported website pages to send the link to Alldebrid in one click.</div>
+				</div>
+				<div class="radioWrapper">
+				 	<input type="checkbox" name="autoPopup" id="autoPopup">
+				 	<label for="autoPopup"></label>
+				 	<label data-lang="general_popup" for="autoPopup">Popup on links selection</label>
+				 	<div span data-lang="general_popup_desc" class="">Display an image popup when supported links are selected to quickly send to Alldebrid.</div>
+				</div>
+				<div class="radioWrapper">
+					<div data-lang="need_subscription" class='disabledFeatures'>Need premium subscription to work</div>
+				 	<input type="checkbox" name="replaceStreamSource" id="replaceStreamSource">
+				 	<label for="replaceStreamSource"></label>
+				 	<label data-lang="general_stream_source" for="replaceStreamSource">In-place stream via Alldebrid</label>
+				 	<div span data-lang="general_stream_source_desc" class="">On supported websites, allow to stream videos directly from the website player via Alldebrid.</div>
+				</div>
+				<div class="radioWrapper">
+					<input type="checkbox" name="findPageLinks" id="findPageLinks">
+				 	<label for="findPageLinks"></label>
+				 	<label data-lang="general_find_links" for="findPageLinks">Find links in pages</label>
+				 	<div span data-lang="general_find_links_desc" class="">Automatically find available files in the page.</div>
+				</div>
+				<div class="line"></div>
+				<div class="radioWrapper">
+				 	<input type="checkbox" name="disabledHosts" id="disabledHosts">
+				 	<label for="disabledHosts"></label>
+				 	<label data-lang="general_host_disable" for="disabledHosts">Disable extension for some websites</label>
+				 	<div span data-lang="general_host_disable_desc" class="">Disable extension functionalities for some websites.</div>
+				</div>
+				<div id="disabledHostersBox">
+					<span data-lang="general_host_disable_add">Add a website</span> : <select id="hosts"></select> <span class="add"><i class="fas fa-plus" style="margin-right: 4px; color: rgb(144, 199, 111);"></i></span>
+				</div>
+				<div id="disabledHostList"></div>
+				<div class="line"></div>
+				<div class="radioWrapper">
+				 	<input type="checkbox" name="enabledStream" id="enabledStream">
+				 	<label for="enabledStream"></label>
+				 	<label data-lang="general_stream_enable" for="enabledStream">Enable extension for some stream websites</label>
+				 	<div span data-lang="general_stream_enable_desc" class="">Enable extension functionalities for some streaming websites</div>
+				</div>
+				<div id="enabledStreamBox">
+					<span data-lang="general_host_disable_add">Add a website</span> : <select id="streams"></select> <span class="add"><i class="fas fa-plus" style="margin-right: 4px; color: rgb(144, 199, 111);"></i></span>
+				</div>
+				<div id="enabledStreamList">
+				</div>
+			</div>
+			<div class="tab__content" data-simplebar>
+				<div data-lang="need_subscription" class='disabledFeatures'>Need premium subscription to work</div>
+				<div class="radioWrapper">
+				 	<input type="checkbox" name="riverCompletionNotif" id="riverCompletionNotif">
+				 	<label for="riverCompletionNotif"></label>
+				 	<label data-lang="rivers_notif_completed" for="riverCompletionNotif"></label>
+				 	<div span data-lang="rivers_notif_completed_desc" class=""></div>
+				</div>
+				<div class="radioWrapper liveNotifEnabled">
+				 	<input type="checkbox" name="riverLiveNotif" id="riverLiveNotif">
+				 	<label for="riverLiveNotif"></label>
+				 	<label data-lang="rivers_notif_live" for="riverLiveNotif">Live persistent notifications</label>
+				 	<div span data-lang="rivers_notif_live_desc" class=""></div>
+				</div>
+				<div class="line"></div>
+				<div class="radioWrapper">
+				 	<input type="checkbox" name="riverCustomSource" id="riverCustomSource">
+				 	<label for="riverCustomSource"></label>
+				 	<label data-lang="rivers_custom_sources" for="riverCustomSource"></label>
+				 	<div span data-lang="rivers_custom_sources_desc" class=""></div>
+				</div>
+				<div id="currentCustomPatterns">
+					<span data-lang="rivers_custom_sources_current">Current custom sources</span> : 
+					<ul></ul>
+				</div>
+				<div id="addCustomSource">
+					<div id="customSourceNotLearning" class='center' style="margin-left: -30px;">
+						<button data-lang='rivers_custom_sources_add' class='greenBtn'>Learn a new source</button><br />
+						<span data-lang='rivers_custom_sources_added' id="newCustomSource">New pattern added</span>
+					</div>
+					<div id="customSourceLearning">
+						<div class='center' style="margin-left: -30px; margin-bottom: 15px;"><button data-lang='rivers_custom_sources_disable' class='greenBtn'>Disable learning</button></div>
+						<div data-lang='rivers_custom_sources_add_desc' style="margin-bottom: 15px; font-size: 13px; "></div>
+						<div id="needMoreSources">
+							<span style="font-size: 13px;"><span data-lang='rivers_custom_sources_add_you_saved'>You saved</span> <span id="nbCustomSources">0</span> <span data-lang='rivers_custom_sources_add_still_need'>links, need at least 3.</span> <span data-lang='rivers_custom_sources_selected'>Selected links</span> : </span>
+							<ul></ul>
+						</div>
+						<div id="resultsFromLearning">
+							<span data-lang='rivers_custom_sources_selected'>Selected links</span> : <span data-lang='rivers_custom_sources_no_common' id="notCommonFound">No common URL detected, retry.</span>
+							<ul></ul>
+							<span id="resultsFromLearningAdd"><input type="text" size="45" value="" /> <span class="add">➕</span></span>
+							<div data-lang='rivers_custom_sources_invalid_pattern' style="color: #d44545; margin-top: 12px;" id="patternNotValid" >This pattern is not valid.</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="tab__content" data-simplebar>
+				<div id="localStreamDesc" data-lang='local_stream_desc'>
+					This extension can stream links generated on Alldebrid directly to your favourite local video or music player. It require to install a small programm to forward the stream request from the extension to your native player.</div>
+				<div class="localStreamStatus" id="localStreamDown">
+					<div data-lang='local_stream_status'  style="color: red;">Status</div>
+					<span data-lang='local_stream_script_version'>Script version</span> : <span data-lang='local_stream_not_detected'>Not installed or detected</span><br />
+					<span data-lang='local_stream_default_player'>Default player</span> : <span>/</span><br /><br />
+					<span data-lang='local_stream_need_install'>Please install the script by</span> <a target="_blank" href='https://alldebrid.com/extensions/?platform=streaming' data-lang='local_stream_following_guide'>following this guide</a>.
+					<span class='winQuickInstall'><br /><span data-lang='local_stream_need_install_quick_installer'>A quick installer is also available, </span> <a target="_blank" href='https://alldebrid.com/lib/vlc/alldebrid-streaming.exe' data-lang='local_stream_need_install_quick_exe'>download it here</a>.</span>
+				</div>
+				<div style="text-align:left;" class="localStreamStatus" id="localStreamUp">
+					<div data-lang='local_stream_status' style="color: green; font-size: 14px; text-align:center;">Status</div>
+					<span data-lang='local_stream_script_version'>Script version</span> : <span id="localScriptVersion"></span> / <span id="nodeVersion"></span><br />
+					<span id="localPlayerSet"><span data-lang='local_stream_default_player'>Default player</span> : <span id="customPlayerName"></span> <br /><span data-lang='local_stream_default_path'>Path</span> : <span id="customPlayerPath" style='font-family: monospace;     word-break: break-all;'></span></span><span data-lang='local_stream_no_player' id="localPlayerNotSet">No player chosen yet, please scan or specify custom player.
+				</div>
+				<div class="line"></div>
+				<div id="localPLayerSelection">
+					<div style="text-align: center">
+						<span class='greenBtn' id="localPlayersScan"><span data-lang='local_stream_scan'>Detect local players</span> <i class="fas fa-spinner fa-spin loading" style="opacity: 0;"></i></span>
+						<div data-lang='local_stream_scan_no_player' style="color: #d44545; margin-top: 12px;" id="localPlayersNotFound" >Could not find any player, please manually specify your player path.</div>
+						<div data-lang='local_stream_scan_one_player' style="margin-top: 12px;" id="localPlayersFoundOne" ><span>Detected one player, setting it by default.</span>(<span id="localPlayersFoundOneName"></span>)</div>
+						<div style="margin-top: 12px;" id="localPlayersFound" ><span data-lang='local_stream_scan_multiple_players'>We detected the following players, please choose one</span> : 
+							<ul style="text-align: left; list-style: none;"></ul>
+						</div>
+					</div>
+
+					<br /><br />
+					<span data-lang='local_stream_manual'>Or specify yourself the player path</span> : <br/>
+					<input id="customPlayerInput" type="text" size="42" value="" /> <span id="customPlayerAdd" class="add"><i class="fas fa-plus" style="margin-right: 4px; color: rgb(144, 199, 111);"></i></span>
+					<div data-lang='local_stream_manual_invalid_path' style="color: #d44545; margin-top: 12px; text-align: center;" id="localPlayersInvalidPath" >This path is not valid.</div>
+				</div>
+			</div>
+
+		</div>
+
+		<footer>
+			<div class='loggued'>
+				<span data-lang="hello">Hello</span> <a target="_blank" id="accountLink" href='http://alldebrid.com/account/'><span id="username"></span></a>, <span id="premiumUntil"></span>
+			</div>
+			<div id="notPremium"></div>
+		</footer>
+		<script src="simplebar.js"></script>
+		<script src="../libs/browser-polyfill.min.js"></script>
+		<script src="../libs/loglevel.js"></script>
+		<script src="../libs/xregexp.js"></script>
+		<script src="../utils.js"></script>
+		<script src="../helpers.js"></script>
+		<script src="popup.js"></script>
+	</body>
+</html>
