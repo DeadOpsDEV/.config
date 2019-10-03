@@ -1,0 +1,55 @@
+! special
+*.foreground:   #ABB2BF
+*.background:   #030303
+*.cursorColor:  #5C6370
+*.highlightColor:#3A3F4B
+
+! black
+*.color0:       #0e0e16
+*.color8:       #1c1c2d
+
+! red
+*.color1:       #e9546b
+*.color9:       #dc6a7d
+
+! green
+*.color2:       #c5c7bf
+*.color10:      #c5c7bf
+
+! yellow
+*.color3:       #d4c96c
+*.color11:      #c7dc97
+
+! blue
+*.color4:       #8099e2
+*.color12:      #99bad2
+
+! magenta
+*.color5:       #aa6ebc
+*.color13:      #c79bd6
+
+! cyan
+*.color6:       #80e9d4
+*.color14:      #97f3e0
+
+! white
+*.color7:        #ffffff
+*.color15:       #ffffff
+
+## color7:       #8a9aa9
+## color15:      #c4c4c4
+
+! other
+URxvt*depth	    : 32
+*.cursorBlink       : 1
+*.letterSpace       : 1
+*.scrollBar         : false
+*.internalBorder    : 15
+*.cursorUnderline   : true
+*.geometry          : 10x10
+URxvt.geometry: 74x27
+URxvt.font: xft:Inconsolata for Powerline:size=12
+URxvt.boldFont: xft:Inconsolata for Powerline:size=12
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+URxvt.iso14755: False
